@@ -203,22 +203,6 @@ class ParallaxGame < BasicGame
 		@renderers << @ship # let the ship draw above the trees/below the rocks
 		add_tiler_with_view "resources/Rocks2.png", 425, 1.1
 		add_tiler_with_view "resources/Rocks1.png", 425, 1.2
-
-=begin
-		@sand = Tiler.new "resources/Sand.png", 0, 408, true, false
-		@rocks = Tiler.new "resources/Rocks1.png", 0, 425, true, false
-		@rocks2 = Tiler.new "resources/Rocks2.png", 0, 425, true, false
-		@rock_view = ParallaxView.new @main_view, 1.2, true
-		@rock_view2 = ParallaxView.new @main_view, 1.1, true
-		@trees = Tiler.new "resources/Trees.png", 0, 351, true, false
-		@tree_view = ParallaxView.new @main_view, 0.9, true
-		@trees2 = Tiler.new "resources/Trees2.png", 0, 356, true, false
-		@tree_view2 = ParallaxView.new @main_view, 0.8, true
-		@mountains = Tiler.new "resources/Mountains.png", 0, 262, true, false
-		@mountain_view = ParallaxView.new @main_view, 0.1, true
-		@stars = Tiler.new "resources/Background.png", 0, 0, true, false
-		@star_view = ParallaxView.new @main_view, 0.01, true
-=end
 	end
 
 	# just a helper function to add new tilers and views
